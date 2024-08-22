@@ -1,0 +1,9 @@
+[package]
+name = "file_finder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.2", features = ["derive"] }
+regex = "1.5"
+chrono = "0.4"
